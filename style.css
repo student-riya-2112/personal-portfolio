@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    line-height: 1,6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+header{
+    padding: 1rem 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}   
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 1rem;
+}
+nav ul li a{
+    text-decoration: double;
+    color: white;
+}
+nav ul button{
+    color: white;
+    background-color: black;
+}
+section{
+    padding: 2rem;
+}
+#Project{
+    margin-bottom: 1.5rem;
+    
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 20px;
+}
+button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+#contactForm{
+    display: none;
+}
